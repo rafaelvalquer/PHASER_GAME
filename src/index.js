@@ -17,7 +17,7 @@ const config = {
     parent: 'phaser-example',
     width: 800,
     height: 600,
-    scene: [MainMenuScene, CharacterConfigScene, StrategyMenuScene, BattleScene], // Adicione suas cenas aqui
+    scene: [StrategyMenuScene, MainMenuScene, CharacterConfigScene, BattleScene], // Adicione suas cenas aqui
     gameData: gameData,
 };
 
